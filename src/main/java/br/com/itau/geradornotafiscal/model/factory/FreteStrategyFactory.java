@@ -24,7 +24,7 @@ public class FreteStrategyFactory {
             case SUL:
                 return new FreteSulStrategy();
             default:
-                throw new IllegalArgumentException("Esta região pode exitir no Netherland de Minecraf, mas não no Brasil: " + regiao);
+                throw new IllegalArgumentException("Esta região pode exitir no Netherland de Minecraft, mas não no Brasil: " + regiao);
         }
     }
 
